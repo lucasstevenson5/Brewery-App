@@ -1,0 +1,565 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.space {
+  background-color:white;
+  font-size: 3px;
+  margin: 0px;
+}
+
+input{
+  margin:5px;
+}
+
+a {
+  margin: 10px;
+}
+
+button{
+  margin:5px;
+}
+
+.CervezAppTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+.CervezAppTitle:hover{
+  font-size: 40px;
+  color: rgb(94, 94, 94);
+  font-family: 'Pacifico', cursive; 
+}
+
+.SignUp-LogIn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:18px;
+}
+
+.LinkNavBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px 0px;
+  background-color:white;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.LinksInNavBar{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.LinksInNavBar:hover, .userOptions:hover{
+  text-decoration: underline;
+}
+
+.LogIn{
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.SignUp{
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.HomePageDisplay{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.BeerFillUp{
+  height: 95%;
+  width: 100%;
+  object-fit: cover;
+  margin:15px;
+}
+
+.BreweryListHeader{
+  display:flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  color:white;
+}
+
+.search {
+  height: 25px;
+  width: 200px;
+  margin: 5px;
+  border: 10px solid gray;
+  border-radius: 2px;
+}
+
+.BreweriesList{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 4px solid white;
+  background-color:gray;
+  color:white;
+}
+
+.BreweryName{
+  display: inline-block;
+  width: 280px;
+  margin: 10px;
+  color:white;
+}
+
+.BreweryStreet, .BreweryAddress, .BreweryPhone, .BreweryWebsite{
+  margin: 5px;
+  color:white;
+}
+
+.BreweryWebsite{
+  display: inline-block;
+}
+
+.BreweryContainer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: black;
+  color:white;
+  margin-bottom: 50px;
+}
+
+.BeerContainer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: black;
+  background-image: url("https://cdn.wallpapersafari.com/88/58/XtOp2Z.jpeg");
+  color:white;
+}
+
+.BeerListTitle{
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.BeerListInContainer{
+  display:flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: bold;
+  background-color:rgba(0, 0, 0, 0.747);
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 75px;
+}
+
+.BeersList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  border: 2px solid white;
+  background-color: gray;
+  color:white;
+  width: 500px;
+}
+
+.BeerTitle{
+  color:white;
+  font-size: 20px;
+  margin:5px;
+  padding: 0px 2px 0px 2px;
+  width: 50%;
+}
+
+.small {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.GamesNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px 0px;
+  background-color:white;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.Game1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Game2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.beerSpinButton{
+  margin: 30px 10px 10px 10px;
+}
+
+.BeerBottle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 100px;
+  margin: 25px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+#test {
+  margin-left: 125px;
+  margin-top: 130px;
+}
+
+.pie {
+  position: relative;
+  border: 1px solid black;
+  padding: 0px;
+  width: 25em; 
+  height: 25em;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.slice {
+  overflow: hidden;
+  position: absolute;
+  top: 0px; 
+  right: 0px;
+  width: 50%; 
+  height: 50%;
+  transform-origin: 0% 100%; 
+}
+
+.slice:nth-child(1) {
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.slice:nth-child(2) {
+  transform: rotate(45deg) skewY(-45deg);
+}
+
+.slice:nth-child(3) {
+  transform: rotate(90deg) skewY(-45deg);
+}
+
+.slice:nth-child(4) {
+  transform: rotate(135deg) skewY(-45deg);
+}
+
+.slice:nth-child(5) {
+  transform: rotate(180deg) skewY(-45deg);
+}
+
+.slice:nth-child(6) {
+  transform: rotate(225deg) skewY(-45deg);
+}
+
+.slice:nth-child(7) {
+  transform: rotate(270deg) skewY(-45deg);
+}
+
+.slice:nth-child(8) {
+  transform: rotate(315deg) skewY(-60deg);
+}
+.slice:nth-child(9) {
+  transform: rotate(345deg) skewY(-75deg);
+}
+
+.slice-contents {
+  position: absolute;
+  left: -100%;
+  width: 200%; height: 200%;
+  border-radius: 50%;
+  transform: skewY(45deg);
+}
+
+#first {
+  background-color: lightskyblue;
+}
+
+#second {
+  background-color: lemonchiffon;
+}
+
+#third {
+  background-color: mistyrose;
+}
+
+#fourth {
+  background-color: lime;
+}
+
+#fifth {
+  background-color: lightskyblue;
+}
+
+#sixth {
+  background-color: lemonchiffon;
+}
+
+#seventh {
+  background-color: mistyrose;
+}
+
+#eighth {
+  background-color: lime;
+  transform: skewY(60deg);
+}
+#ninth{
+  background-color: lightcoral;
+  transform: skewY(75deg);
+}
+
+.calculator {
+  text-align: center;
+}
+
+.bacContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#sex {
+  margin-left: 140px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+#weight {
+  margin-left: 113px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+#numOfBeers {
+  margin-left: 41px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+#hours {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+#centerSubmit {
+  text-align: center;
+}
+
+.vote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.upvote {
+  margin: 10px;
+}
+
+.beerVote {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logoutButton {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+}
+
+.userName {
+  text-align: center;
+}
+
+.bubbles {
+  background-image: url("https://thumbs.gfycat.com/CornyColdGoldfinch-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.addBeer {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.addBeer:hover, .hovereffect:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.profileContainers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.profileBeersContainer, .favoriteBeersContainer, .beersTriedContainer,
+.profileBreweryContainer, .favoriteBreweriesContainer, .breweriesTriedContainer {
+  border: 3px solid white;
+  width: 25vw;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.384);
+  padding: 10px;
+  text-align: center;
+}
+
+.game2container {
+  border: 2px solid gray;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.game2margin {
+  margin-top: 5px;
+}
+
+#blue {
+  background-color: lightskyblue;
+  padding: 2px 2px;
+}
+
+#yellow {
+  background-color: lemonchiffon;
+  padding: 2px 2px;
+}
+
+#pink {
+  background-color: mistyrose;
+  padding: 2px 2px;
+}
+
+#green {
+  background-color: lime;
+  padding: 2px 2px;
+}
+
+#red {
+  background-color: lightcoral;
+  padding: 2px 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .profileContainers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profileBeersContainer, .favoriteBeersContainer, .beersTriedContainer,
+  .profileBreweryContainer, .favoriteBreweriesContainer, .breweriesTriedContainer {
+    border: 3px solid white;
+    width: 80vw;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.384);
+    padding: 10px;
+    text-align: center;
+  }
+  .BeerChugGif {
+    width: 80vw;
+  }
+}
+
+.bottomBorder {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background:  rgba(0, 0, 0, 0.75);
+  position: fixed;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: auto;
+}
+
+main {
+  height: 100vh;
+}
+
+footer {
+  bottom: 0;
+}
+
+.centerBAC {
+  text-align: center;
+}
+
+.BeerChugGif {
+  border: 5px solid lightgray;
+  border-radius: 5px;
+  width: 500px;
+}
